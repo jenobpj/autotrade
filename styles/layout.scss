@@ -1,6 +1,39 @@
 // See: https://sass-lang.com/
 
-body,
-html {
-  margin: 0;
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
+.navbar{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing:.1rem ;
+  box-shadow:0 1rem 1.2rem rgba(0,0,0,.2);
+  z-index: 1;
+
+}
+.nav-link{
+  color: rgb(249, 249, 249)!important;
+}
+.nav-link:hover{
+  color: rgb(0, 0, 0)!important;
+}
+#carousel{
+  box-shadow:0 1rem 1.2rem rgba(0,0,0,.2);
+  margin-bottom: 2rem;
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 1.2s ease;
+}
+#searchForm{
+  font-size: 1.5rem;
+  color: white;
+  background-color:grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+
